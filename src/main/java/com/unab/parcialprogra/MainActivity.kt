@@ -33,6 +33,37 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
-    private fun sentenciaIf(){}
-    private fun bucle(){}
+    private fun sentenciaIf(){
+        val color = "Rojo"
+
+        if(color == "rojo" ){
+            println("El color es rojo")
+        }
+        else if(color == "verde" ){
+            println("No se ha identificado el color")
+        }
+        else{
+            println("No se ha identificado el color")
+        }
+
+    }
+    private fun bucle(){
+        val bucle = listOf("Dennis", "Gilberto", "Fuentes", "Landaverde")
+        for(mibucle in bucle){
+            println(mibucle)
+        }
+        for(x in 1..1){
+            println(x)
+        }
+        for(x in 2..2){
+            println(x)
+        }
+        for(x in 1 downTo 1){
+            println(x)
+        }
+        for(x in 3 downTo 3){
+            println(x)
+        }
+
+    }
 }
